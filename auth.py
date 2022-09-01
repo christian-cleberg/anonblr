@@ -12,5 +12,4 @@ def login():
   except:
     print("Exception thrown during authentication.")
 
-  print(type(client))
   return client
