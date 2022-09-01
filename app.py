@@ -21,7 +21,11 @@ def blogroll(blog):
   # Authenticate with Tumblr
   client = auth.login()
 
+  # TODO: Create method to check if the URL contains multiple blogs
+
   # Return blog posts
+  # TODO: Create a better method of checking post types so the following logic 
+  # can use the correct JSON object more effectively
   output = str()
   data = client.posts(blog)
   for post in data["posts"]:
