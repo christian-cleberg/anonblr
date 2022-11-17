@@ -9,9 +9,9 @@ def main():
   # Return the content view
   return render_template("index.html", output="""
   <p>To see a blog's posts, enter the blog name in the URL:</p>
-  <pre><code>https://anonblr.cleberg.io/blog_name</code></pre>
+  <pre><code>https://anonblr.cleberg.net/blog_name</code></pre>
   <p>(WIP) To see multiple blogs, add a <code>+</code> sign between the blogs:</p>
-  <pre><code>https://anonblr.cleberg.io/blog_one+blog_two</code></pre>
+  <pre><code>https://anonblr.cleberg.net/blog_one+blog_two</code></pre>
   <br>
   <a href="/funnytwittertweets">Example &rarr;</a>
   """)
